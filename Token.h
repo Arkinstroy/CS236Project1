@@ -3,16 +3,33 @@
 #include <string>
 
 enum class TokenType {
+    COMMA,
+    PERIOD,
+    Q_MARK,
+    LEFT_PAREN,
+    RIGHT_PAREN,
     COLON,
     COLON_DASH,
-    // TODO: add the other types of tokens
-    UNDEFINED
+    MULTIPLY,
+    ADD,
+    SCHEMES,
+    FACTS,
+    RULES,
+    QUERIES,
+    ID,
+    STRING,
+    COMMENT,
+    UNDEFINED,
+    EOF_TOKEN
 };
 
 class Token
 {
 private:
     // TODO: add member variables for information needed by Token
+    TokenType type;
+    std::string description;
+    int line;
 
 public:
     Token(TokenType type, std::string description, int line);

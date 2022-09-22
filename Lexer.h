@@ -9,6 +9,8 @@ class Lexer
 private:
     std::vector<Automaton*> automata;
     std::vector<Token*> tokens;
+    unsigned int lineNumber;
+    unsigned int inputRead;
 
     void CreateAutomata();
 
