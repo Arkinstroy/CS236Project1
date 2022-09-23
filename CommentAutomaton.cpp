@@ -30,7 +30,7 @@ void CommentAutomaton::S2(const std::string &input) {
         index++;
         S4(input);
     }
-    else if (input[index] == input.size()){
+    else if (static_cast<unsigned long>(index) == input.size()){
         Serr();
     }
     else if (input[index] == '\n') {
@@ -47,7 +47,7 @@ void CommentAutomaton::S2(const std::string &input) {
 }
 
 void CommentAutomaton::S3(const std::string &input) {
-    if (input[index] == '\n' || index == input.size()) {
+    if (input[index] == '\n' || static_cast<unsigned long>(index) == input.size()) {
 
     }
     else {
@@ -72,7 +72,7 @@ void CommentAutomaton::S4(const std::string &input) {
         S2(input);
         newLines++;
     }
-    else if (index == input.size()) {
+    else if (static_cast<unsigned long>(index) == input.size()) {
         Serr();
     }
     else {

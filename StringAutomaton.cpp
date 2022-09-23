@@ -17,7 +17,7 @@ void StringAutomaton::S1(const std::string& input) {
         index++;
         S2(input);
     }
-    else if (index == input.size()) {
+    else if (static_cast<unsigned long>(index) == input.size()) {
         Serr();
     }
     else {
