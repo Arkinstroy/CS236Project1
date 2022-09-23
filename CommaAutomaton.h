@@ -5,9 +5,6 @@
 
 class CommaAutomaton : public Automaton
 {
-private:
-    void Sundefined();
-
 public:
     CommaAutomaton() : Automaton(TokenType::COMMA) {}  // Call the base constructor
 

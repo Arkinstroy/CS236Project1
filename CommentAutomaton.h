@@ -10,6 +10,7 @@ private:
     void S2(const std::string& input);
     void S3(const std::string& input);
     void S4(const std::string& input);
+    void Sundefined();
 
 public:
     CommentAutomaton() : Automaton(TokenType::COMMENT) {}  // Call the base constructor
