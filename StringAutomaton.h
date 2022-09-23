@@ -8,7 +8,7 @@ class StringAutomaton : public Automaton
 private:
     void S1(const std::string& input);
     void S2(const std::string& input);
-    void Sundefined(const std::string& input);
+    void Sundefined();
 
 public:
     StringAutomaton() : Automaton(TokenType::STRING) {}  // Call the base constructor
