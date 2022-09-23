@@ -33,7 +33,7 @@ private:
 
 public:
     Token(TokenType type, std::string description, int line);
-
+    std::string toString();
     // TODO: add other needed methods
 };
 

@@ -6,7 +6,7 @@
 class MultiplyAutomaton : public Automaton
 {
 public:
-    MultiplyAutomaton() : Automaton(TokenType::COLON) {}  // Call the base constructor
+    MultiplyAutomaton() : Automaton(TokenType::MULTIPLY) {}  // Call the base constructor
 
     void S0(const std::string& input);
 };

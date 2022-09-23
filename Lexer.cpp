@@ -1,3 +1,4 @@
+#include <iostream>
 #include "Lexer.h"
 #include "CommaAutomaton.h"
 #include "PeriodAutomaton.h"
@@ -12,11 +13,9 @@
 #include "FactsAutomaton.h"
 #include "RulesAutomaton.h"
 #include "QueriesAutomaton.h"
-#include "IdAutomaton.h"
+#include "IDAutomaton.h"
 #include "StringAutomaton.h"
-#include "CommaAutomaton.h"
-#include "UndefinedAutomaton.h"
-#include "EOFAutomaton.h"
+#include "CommentAutomaton.h"
 
 Lexer::Lexer() {
     CreateAutomata();
@@ -27,8 +26,22 @@ Lexer::~Lexer() {
 }
 
 void Lexer::CreateAutomata() {
+    automata.push_back(new CommaAutomaton());
+    automata.push_back(new PeriodAutomaton());
+    automata.push_back(new QuestionMarkAutomaton());
+    automata.push_back(new RightParenAutomaton());
+    automata.push_back(new LeftParenAutomaton());
     automata.push_back(new ColonAutomaton());
     automata.push_back(new ColonDashAutomaton());
+    automata.push_back(new MultiplyAutomaton());
+    automata.push_back(new AddAutomaton());
+    automata.push_back(new SchemesAutomaton());
+    automata.push_back(new FactsAutomaton());
+    automata.push_back(new RulesAutomaton());
+    automata.push_back(new QueriesAutomaton());
+    automata.push_back(new IDAutomaton());
+    automata.push_back(new StringAutomaton());
+    automata.push_back(new CommentAutomaton());
 
     // TODO: Add the other needed automata here
 }
@@ -44,6 +57,15 @@ void Lexer::Run(std::string& input) {
         maxRead = 0;
         maxAutomaton = automata.at(0);
 
+        int nextNonSpaceIndex = 0;
+        while(std::isspace(input[nextNonSpaceIndex])) {
+            if (input[nextNonSpaceIndex] == '\n') {
+                this->lineNumber++;
+            }
+            nextNonSpaceIndex++;
+        }
+        input = input.substr(nextNonSpaceIndex, input.size());
+
         for (unsigned int i = 0; i < automata.size(); i++) {
             this->inputRead = automata.at(i)->Start(input);
             if (this->inputRead > maxRead) {
@@ -53,7 +75,7 @@ void Lexer::Run(std::string& input) {
         }
 
         if (maxRead > 0) {
-            Token* newToken = maxAutomaton->CreateToken(input, this->lineNumber);
+            Token* newToken = maxAutomaton->CreateToken(input.substr(0, maxRead), this->lineNumber);
             this->lineNumber += maxAutomaton->NewLinesRead();
             this->tokens.push_back(newToken);
         }
@@ -63,6 +85,14 @@ void Lexer::Run(std::string& input) {
             this->tokens.push_back(newToken);
         }
         input = input.substr(maxRead, input.size());
+        nextNonSpaceIndex = 0;
+        while(std::isspace(input[nextNonSpaceIndex])) {
+            if (input[nextNonSpaceIndex] == '\n') {
+                this->lineNumber++;
+            }
+            nextNonSpaceIndex++;
+        }
+        input = input.substr(nextNonSpaceIndex, input.size());
     }
     Token* newToken = new Token(TokenType::EOF_TOKEN, "", this->lineNumber);
     this->tokens.push_back(newToken);
@@ -104,4 +134,11 @@ void Lexer::Run(std::string& input) {
     }
     add end of file token to all tokens
     */
+}
+
+void Lexer::OutputResults() {
+    for (unsigned int i = 0; i < this->tokens.size(); i++) {
+        std::cout << this->tokens.at(i)->toString() << std::endl;
+    }
+    std::cout << "Total Tokens = " << std::to_string(this->tokens.size());
 }

@@ -6,7 +6,7 @@
 class RightParenAutomaton : public Automaton
 {
 public:
-    RightParenAutomaton() : Automaton(TokenType::COLON) {}  // Call the base constructor
+    RightParenAutomaton() : Automaton(TokenType::RIGHT_PAREN) {}  // Call the base constructor
 
     void S0(const std::string& input);
 };

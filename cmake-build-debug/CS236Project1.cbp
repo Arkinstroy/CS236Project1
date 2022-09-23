@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/AddAutomaton.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/AddAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h">
 			<Option target="CS236Project1"/>
 		</Unit>
@@ -97,10 +103,88 @@
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/ColonDashAutomaton.h">
 			<Option target="CS236Project1"/>
 		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/CommaAutomaton.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/CommaAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/CommentAutomaton.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/CommentAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/FactsAutomaton.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/FactsAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/IDAutomaton.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/IDAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/LeftParenAutomaton.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/LeftParenAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Lexer.cpp">
 			<Option target="CS236Project1"/>
 		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Lexer.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/MultiplyAutomaton.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/MultiplyAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/PeriodAutomaton.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/PeriodAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/QueriesAutomaton.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/QueriesAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/QuestionMarkAutomaton.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/QuestionMarkAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/RightParenAutomaton.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/RightParenAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/RulesAutomaton.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/RulesAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/SchemesAutomaton.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/SchemesAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/StringAutomaton.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/StringAutomaton.h">
 			<Option target="CS236Project1"/>
 		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Token.cpp">

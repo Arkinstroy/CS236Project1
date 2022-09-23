@@ -10,53 +10,15 @@ C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
 Token.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
 
-C:/Users/zkg59/CS236/project1/CS236Project1/ColonAutomaton.cpp
-ColonAutomaton.h
-C:/Users/zkg59/CS236/project1/CS236Project1/ColonAutomaton.h
+C:/Users/zkg59/CS236/project1/CS236Project1/CommentAutomaton.cpp
+CommentAutomaton.h
+C:/Users/zkg59/CS236/project1/CS236Project1/CommentAutomaton.h
 
-C:/Users/zkg59/CS236/project1/CS236Project1/ColonAutomaton.h
+C:/Users/zkg59/CS236/project1/CS236Project1/CommentAutomaton.h
 Automaton.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
 
-C:/Users/zkg59/CS236/project1/CS236Project1/ColonDashAutomaton.cpp
-ColonDashAutomaton.h
-C:/Users/zkg59/CS236/project1/CS236Project1/ColonDashAutomaton.h
-
-C:/Users/zkg59/CS236/project1/CS236Project1/ColonDashAutomaton.h
-Automaton.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
-
-C:/Users/zkg59/CS236/project1/CS236Project1/Lexer.cpp
-Lexer.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Lexer.h
-ColonAutomaton.h
-C:/Users/zkg59/CS236/project1/CS236Project1/ColonAutomaton.h
-ColonDashAutomaton.h
-C:/Users/zkg59/CS236/project1/CS236Project1/ColonDashAutomaton.h
-
-C:/Users/zkg59/CS236/project1/CS236Project1/Lexer.h
-vector
--
-Automaton.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
-Token.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
-
-C:/Users/zkg59/CS236/project1/CS236Project1/Token.cpp
-Token.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
-
-C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
-string
--
-
-C:/Users/zkg59/CS236/project1/CS236Project1/main.cpp
-Lexer.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Lexer.h
-fstream
--
-iostream
--
 string
 -
 

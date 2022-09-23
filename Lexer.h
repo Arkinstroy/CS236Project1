@@ -1,6 +1,7 @@
 #ifndef LEXER_H
 #define LEXER_H
 #include <vector>
+#include <cctype>
 #include "Automaton.h"
 #include "Token.h"
 
@@ -21,6 +22,7 @@ public:
     ~Lexer();
 
     void Run(std::string& input);
+    void OutputResults();
     
     // TODO: add other public methods here
 

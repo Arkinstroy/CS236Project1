@@ -23,9 +23,10 @@ int main(int argc, char** argv) {
     }
     infile.close();
 
-    std::cout << inputString;
 
     lexer->Run(inputString);
+
+    lexer->OutputResults();
 
 
 
