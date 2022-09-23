@@ -50,7 +50,7 @@ void Lexer::Run(std::string& input) {
     // TODO: convert this pseudo-code with the algorithm into actual C++ code
 
     this->lineNumber = 1;
-    unsigned int maxRead;
+    int maxRead;
     Automaton* maxAutomaton;
 
     while (input.size() > 0) {
@@ -80,13 +80,14 @@ void Lexer::Run(std::string& input) {
             this->tokens.push_back(newToken);
         }
         else if (maxRead < 0) {
-            Token* newToken = new Token(TokenType::UNDEFINED, input.substr(0, 0 - maxRead), this->lineNumber);
+            maxRead = 0 - maxRead;
+            Token* newToken = new Token(TokenType::UNDEFINED, input.substr(0, maxRead), this->lineNumber);
             this->lineNumber += maxAutomaton->NewLinesRead();
             this->tokens.push_back(newToken);
         }
         else {
             maxRead = 1;
-            Token* newToken = new Token(TokenType::UNDEFINED, input.substr(0, 1), this->lineNumber);
+            Token* newToken = new Token(TokenType::UNDEFINED, input.substr(0, maxRead), this->lineNumber);
             this->tokens.push_back(newToken);
         }
         input = input.substr(maxRead, input.size());

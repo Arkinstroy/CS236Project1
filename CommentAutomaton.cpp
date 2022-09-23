@@ -31,7 +31,7 @@ void CommentAutomaton::S2(const std::string &input) {
         S4(input);
     }
     else if (static_cast<unsigned long>(index) == input.size()){
-        Serr();
+        Sundefined();
     }
     else if (input[index] == '\n') {
         inputRead++;
@@ -73,11 +73,15 @@ void CommentAutomaton::S4(const std::string &input) {
         newLines++;
     }
     else if (static_cast<unsigned long>(index) == input.size()) {
-        Serr();
+        Sundefined();
     }
     else {
         inputRead++;
         index++;
         S2(input);
     }
+}
+
+void StringAutomaton::Sundefined() {
+    inputRead = 0 - inputRead;
 }
