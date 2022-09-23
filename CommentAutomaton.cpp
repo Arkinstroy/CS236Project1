@@ -82,6 +82,6 @@ void CommentAutomaton::S4(const std::string &input) {
     }
 }
 
-void StringAutomaton::Sundefined() {
+void CommentAutomaton::Sundefined() {
     inputRead = 0 - inputRead;
 }
