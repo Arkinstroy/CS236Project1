@@ -11,7 +11,7 @@ private:
     std::vector<Automaton*> automata;
     std::vector<Token*> tokens;
     unsigned int lineNumber;
-    unsigned int inputRead;
+    int inputRead;
 
     void CreateAutomata();
 
