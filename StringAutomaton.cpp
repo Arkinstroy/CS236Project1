@@ -24,7 +24,6 @@ void StringAutomaton::S1(const std::string& input) {
         S1(input);
     }
     else if (static_cast<unsigned long>(index) == input.size()) {
-        inputRead++;
         Sundefined();
     }
     else {
