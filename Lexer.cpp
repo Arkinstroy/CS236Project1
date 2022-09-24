@@ -53,48 +53,51 @@ void Lexer::Run(std::string& input) {
     this->lineNumber = 1;
     int maxRead;
     Automaton* maxAutomaton;
+    
+    if (input.size() > 1 || std::isspace(input[0])) {
+        while (input.size() > 0) {
+            maxRead = 0;
+            maxAutomaton = automata.at(0);
 
-    while (input.size() > 0) {
-        maxRead = 0;
-        maxAutomaton = automata.at(0);
-
-        int nextNonSpaceIndex = 0;
-        while(std::isspace(input[nextNonSpaceIndex])) {
-            if (input[nextNonSpaceIndex] == '\n') {
-                this->lineNumber++;
+            int nextNonSpaceIndex = 0;
+            while(std::isspace(input[nextNonSpaceIndex])) {
+                if (input[nextNonSpaceIndex] == '\n') {
+                    this->lineNumber++;
+                }
+                nextNonSpaceIndex++;
             }
-            nextNonSpaceIndex++;
-        }
-        input = input.substr(nextNonSpaceIndex, input.size());
+            input = input.substr(nextNonSpaceIndex, input.size());
 
-        for (unsigned int i = 0; i < automata.size(); i++) {
-            this->inputRead = automata.at(i)->Start(input);
-            if (this->inputRead > maxRead) {
-                maxRead = this->inputRead;
-                maxAutomaton = automata.at(i);
+            for (unsigned int i = 0; i < automata.size(); i++) {
+                this->inputRead = automata.at(i)->Start(input);
+                if (this->inputRead > maxRead) {
+                    maxRead = this->inputRead;
+                    maxAutomaton = automata.at(i);
+                }
             }
-        }
 
-        if (maxRead > 0) {
-            Token* newToken = maxAutomaton->CreateToken(input.substr(0, maxRead), this->lineNumber);
-            this->lineNumber += maxAutomaton->NewLinesRead();
-            this->tokens.push_back(newToken);
-        }
-        else {
-            maxRead = 1;
-            Token* newToken = new Token(TokenType::UNDEFINED, input.substr(0, maxRead), this->lineNumber);
-            this->tokens.push_back(newToken);
-        }
-        input = input.substr(maxRead, input.size());
-        nextNonSpaceIndex = 0;
-        while(std::isspace(input[nextNonSpaceIndex])) {
-            if (input[nextNonSpaceIndex] == '\n') {
-                this->lineNumber++;
+            if (maxRead > 0) {
+                Token* newToken = maxAutomaton->CreateToken(input.substr(0, maxRead), this->lineNumber);
+                this->lineNumber += maxAutomaton->NewLinesRead();
+                this->tokens.push_back(newToken);
             }
-            nextNonSpaceIndex++;
+            else {
+                maxRead = 1;
+                Token* newToken = new Token(TokenType::UNDEFINED, input.substr(0, maxRead), this->lineNumber);
+                this->tokens.push_back(newToken);
+            }
+            input = input.substr(maxRead, input.size());
+            nextNonSpaceIndex = 0;
+            while(std::isspace(input[nextNonSpaceIndex])) {
+                if (input[nextNonSpaceIndex] == '\n') {
+                    this->lineNumber++;
+                }
+                nextNonSpaceIndex++;
+            }
+            input = input.substr(nextNonSpaceIndex, input.size());
         }
-        input = input.substr(nextNonSpaceIndex, input.size());
     }
+
     Token* newToken = new Token(TokenType::EOF_TOKEN, "", this->lineNumber);
     this->tokens.push_back(newToken);
 }
