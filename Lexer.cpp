@@ -22,7 +22,12 @@ Lexer::Lexer() {
 }
 
 Lexer::~Lexer() {
-    // TODO: need to clean up the memory in `automata` and `tokens`
+    for (auto & i : automata) {
+        delete i;
+    }
+    for (auto & token : tokens) {
+        delete token;
+    }
 }
 
 void Lexer::CreateAutomata() {
@@ -42,13 +47,9 @@ void Lexer::CreateAutomata() {
     automata.push_back(new IDAutomaton());
     automata.push_back(new StringAutomaton());
     automata.push_back(new CommentAutomaton());
-
-    // TODO: Add the other needed automata here
 }
 
 void Lexer::Run(std::string& input) {
-    // TODO: convert this pseudo-code with the algorithm into actual C++ code
-
     this->lineNumber = 1;
     int maxRead;
     Automaton* maxAutomaton;
@@ -96,44 +97,6 @@ void Lexer::Run(std::string& input) {
     }
     Token* newToken = new Token(TokenType::EOF_TOKEN, "", this->lineNumber);
     this->tokens.push_back(newToken);
-
-    /*
-
-    // While there are more characters to tokenize
-    loop while input.size() > 0 {
-        set maxRead to 0
-        set maxAutomaton to the first automaton in automata
-
-        // TODO: you need to handle whitespace inbetween tokens
-
-        // Here is the "Parallel" part of the algorithm
-        //   Each automaton runs with the same input
-        foreach automaton in automata {
-            inputRead = automaton.Start(input)
-            if (inputRead > maxRead) {
-                set maxRead to inputRead
-                set maxAutomaton to automaton
-            }
-        }
-        // Here is the "Max" part of the algorithm
-        if maxRead > 0 {
-            set newToken to maxAutomaton.CreateToken(...)
-                increment lineNumber by maxAutomaton.NewLinesRead()
-                add newToken to collection of all tokens
-        }
-        // No automaton accepted input
-        // Create single character undefined token
-        else {
-            set maxRead to 1
-                set newToken to a  new undefined Token
-                (with first character of input)
-                add newToken to collection of all tokens
-        }
-        // Update `input` by removing characters read to create Token
-        remove maxRead characters from input
-    }
-    add end of file token to all tokens
-    */
 }
 
 void Lexer::OutputResults() {
