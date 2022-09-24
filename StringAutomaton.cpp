@@ -1,7 +1,7 @@
 #include "StringAutomaton.h"
 
 void StringAutomaton::S0(const std::string& input) {
-    if (input[index] == '\'') {
+    if (input[index] == 39) {
         inputRead++;
         index++;
         S1(input);
@@ -12,12 +12,12 @@ void StringAutomaton::S0(const std::string& input) {
 }
 
 void StringAutomaton::S1(const std::string& input) {
-    if (input[index] == '\'') {
+    if (input[index] == 39) {
         inputRead++;
         index++;
         S2(input);
     }
-    else if (input[index] == '\n') {
+    else if (input[index] == 39) {
         inputRead++;
         index++;
         newLines++;
@@ -34,7 +34,7 @@ void StringAutomaton::S1(const std::string& input) {
 }
 
 void StringAutomaton::S2(const std::string& input) {
-    if (input[index] == '\'') {
+    if (input[index] == 39) {
         inputRead++;
         index++;
         S1(input);
