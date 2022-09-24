@@ -79,12 +79,6 @@ void Lexer::Run(std::string& input) {
             this->lineNumber += maxAutomaton->NewLinesRead();
             this->tokens.push_back(newToken);
         }
-        else if (maxRead < 0) {
-            maxRead = 0 - maxRead;
-            Token* newToken = new Token(TokenType::UNDEFINED, input.substr(0, maxRead), this->lineNumber);
-            this->lineNumber += maxAutomaton->NewLinesRead();
-            this->tokens.push_back(newToken);
-        }
         else {
             maxRead = 1;
             Token* newToken = new Token(TokenType::UNDEFINED, input.substr(0, maxRead), this->lineNumber);

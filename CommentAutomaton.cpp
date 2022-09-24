@@ -83,5 +83,9 @@ void CommentAutomaton::S4(const std::string &input) {
 }
 
 void CommentAutomaton::Sundefined() {
-    inputRead = 0 - inputRead;
+    isUndefined = true;
+}
+
+Token *CommentAutomaton::CreateToken(std::string input, int lineNumber) {
+    return new Token(isUndefined ? TokenType::UNDEFINED : type, input, lineNumber);
 }
