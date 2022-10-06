@@ -26,6 +26,12 @@ CMakeFiles/CS236Project1.dir/CommentAutomaton.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/CommentAutomaton.cpp
  C:/Users/zkg59/CS236/project1/CS236Project1/CommentAutomaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
+CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.obj
+ C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.cpp
+ C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Rule.h
 CMakeFiles/CS236Project1.dir/FactsAutomaton.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/FactsAutomaton.cpp
@@ -67,11 +73,28 @@ CMakeFiles/CS236Project1.dir/MultiplyAutomaton.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/MultiplyAutomaton.cpp
  C:/Users/zkg59/CS236/project1/CS236Project1/MultiplyAutomaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
+CMakeFiles/CS236Project1.dir/Parameter.cpp.obj
+ C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.cpp
+ C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.h
+CMakeFiles/CS236Project1.dir/Parser.cpp.obj
+ C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Lexer.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Parser.cpp
+ C:/Users/zkg59/CS236/project1/CS236Project1/Parser.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Rule.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
 CMakeFiles/CS236Project1.dir/PeriodAutomaton.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/PeriodAutomaton.cpp
  C:/Users/zkg59/CS236/project1/CS236Project1/PeriodAutomaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
+CMakeFiles/CS236Project1.dir/Predicate.cpp.obj
+ C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.cpp
+ C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h
 CMakeFiles/CS236Project1.dir/QueriesAutomaton.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/QueriesAutomaton.cpp
@@ -87,6 +110,11 @@ CMakeFiles/CS236Project1.dir/RightParenAutomaton.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/RightParenAutomaton.cpp
  C:/Users/zkg59/CS236/project1/CS236Project1/RightParenAutomaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
+CMakeFiles/CS236Project1.dir/Rule.cpp.obj
+ C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Rule.cpp
+ C:/Users/zkg59/CS236/project1/CS236Project1/Rule.h
 CMakeFiles/CS236Project1.dir/RulesAutomaton.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/RulesAutomaton.cpp
@@ -107,6 +135,11 @@ CMakeFiles/CS236Project1.dir/Token.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
 CMakeFiles/CS236Project1.dir/main.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Lexer.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Parser.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Rule.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
  C:/Users/zkg59/CS236/project1/CS236Project1/main.cpp

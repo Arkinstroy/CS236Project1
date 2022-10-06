@@ -7,6 +7,14 @@ Token::Token(TokenType type, std::string description, int line) {
     this->line = line;
 }
 
+TokenType Token::GetType() {
+    return this->type;
+}
+
+std::string Token::GetDescription() {
+    return this->description;
+}
+
 std::string Token::toString() {
     std::string type = "";
     switch(this->type) {

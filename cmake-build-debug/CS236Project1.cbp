@@ -115,6 +115,12 @@
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/CommentAutomaton.h">
 			<Option target="CS236Project1"/>
 		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h">
+			<Option target="CS236Project1"/>
+		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/FactsAutomaton.cpp">
 			<Option target="CS236Project1"/>
 		</Unit>
@@ -145,10 +151,28 @@
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/MultiplyAutomaton.h">
 			<Option target="CS236Project1"/>
 		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Parser.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Parser.h">
+			<Option target="CS236Project1"/>
+		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/PeriodAutomaton.cpp">
 			<Option target="CS236Project1"/>
 		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/PeriodAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h">
 			<Option target="CS236Project1"/>
 		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/QueriesAutomaton.cpp">
@@ -167,6 +191,12 @@
 			<Option target="CS236Project1"/>
 		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/RightParenAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Rule.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Rule.h">
 			<Option target="CS236Project1"/>
 		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/RulesAutomaton.cpp">

@@ -26,6 +26,12 @@ CMakeFiles/CS236Project1.dir/CommentAutomaton.cpp.obj: \
  ../CommentAutomaton.cpp \
  ../CommentAutomaton.h \
  ../Token.h
+CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.obj: \
+ ../DatalogProgram.cpp \
+ ../DatalogProgram.h \
+ ../Parameter.h \
+ ../Predicate.h \
+ ../Rule.h
 CMakeFiles/CS236Project1.dir/FactsAutomaton.cpp.obj: \
  ../Automaton.h \
  ../FactsAutomaton.cpp \
@@ -67,11 +73,28 @@ CMakeFiles/CS236Project1.dir/MultiplyAutomaton.cpp.obj: \
  ../MultiplyAutomaton.cpp \
  ../MultiplyAutomaton.h \
  ../Token.h
+CMakeFiles/CS236Project1.dir/Parameter.cpp.obj: \
+ ../Parameter.cpp \
+ ../Parameter.h
+CMakeFiles/CS236Project1.dir/Parser.cpp.obj: \
+ ../Automaton.h \
+ ../DatalogProgram.h \
+ ../Lexer.h \
+ ../Parameter.h \
+ ../Parser.cpp \
+ ../Parser.h \
+ ../Predicate.h \
+ ../Rule.h \
+ ../Token.h
 CMakeFiles/CS236Project1.dir/PeriodAutomaton.cpp.obj: \
  ../Automaton.h \
  ../PeriodAutomaton.cpp \
  ../PeriodAutomaton.h \
  ../Token.h
+CMakeFiles/CS236Project1.dir/Predicate.cpp.obj: \
+ ../Parameter.h \
+ ../Predicate.cpp \
+ ../Predicate.h
 CMakeFiles/CS236Project1.dir/QueriesAutomaton.cpp.obj: \
  ../Automaton.h \
  ../QueriesAutomaton.cpp \
@@ -87,6 +110,11 @@ CMakeFiles/CS236Project1.dir/RightParenAutomaton.cpp.obj: \
  ../RightParenAutomaton.cpp \
  ../RightParenAutomaton.h \
  ../Token.h
+CMakeFiles/CS236Project1.dir/Rule.cpp.obj: \
+ ../Parameter.h \
+ ../Predicate.h \
+ ../Rule.cpp \
+ ../Rule.h
 CMakeFiles/CS236Project1.dir/RulesAutomaton.cpp.obj: \
  ../Automaton.h \
  ../RulesAutomaton.cpp \
@@ -107,6 +135,11 @@ CMakeFiles/CS236Project1.dir/Token.cpp.obj: \
  ../Token.h
 CMakeFiles/CS236Project1.dir/main.cpp.obj: \
  ../Automaton.h \
+ ../DatalogProgram.h \
  ../Lexer.h \
+ ../Parameter.h \
+ ../Parser.h \
+ ../Predicate.h \
+ ../Rule.h \
  ../Token.h \
  ../main.cpp

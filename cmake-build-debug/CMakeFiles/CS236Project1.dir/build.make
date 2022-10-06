@@ -331,6 +331,76 @@ CMakeFiles/CS236Project1.dir/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS236Project1.dir/Token.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zkg59\CS236\project1\CS236Project1\Token.cpp -o CMakeFiles\CS236Project1.dir\Token.cpp.s
 
+CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.obj: CMakeFiles/CS236Project1.dir/flags.make
+CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.obj: CMakeFiles/CS236Project1.dir/includes_CXX.rsp
+CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.obj: ../DatalogProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zkg59\CS236\project1\CS236Project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS236Project1.dir\DatalogProgram.cpp.obj -c C:\Users\zkg59\CS236\project1\CS236Project1\DatalogProgram.cpp
+
+CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zkg59\CS236\project1\CS236Project1\DatalogProgram.cpp > CMakeFiles\CS236Project1.dir\DatalogProgram.cpp.i
+
+CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zkg59\CS236\project1\CS236Project1\DatalogProgram.cpp -o CMakeFiles\CS236Project1.dir\DatalogProgram.cpp.s
+
+CMakeFiles/CS236Project1.dir/Parser.cpp.obj: CMakeFiles/CS236Project1.dir/flags.make
+CMakeFiles/CS236Project1.dir/Parser.cpp.obj: CMakeFiles/CS236Project1.dir/includes_CXX.rsp
+CMakeFiles/CS236Project1.dir/Parser.cpp.obj: ../Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zkg59\CS236\project1\CS236Project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CS236Project1.dir/Parser.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS236Project1.dir\Parser.cpp.obj -c C:\Users\zkg59\CS236\project1\CS236Project1\Parser.cpp
+
+CMakeFiles/CS236Project1.dir/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS236Project1.dir/Parser.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zkg59\CS236\project1\CS236Project1\Parser.cpp > CMakeFiles\CS236Project1.dir\Parser.cpp.i
+
+CMakeFiles/CS236Project1.dir/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS236Project1.dir/Parser.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zkg59\CS236\project1\CS236Project1\Parser.cpp -o CMakeFiles\CS236Project1.dir\Parser.cpp.s
+
+CMakeFiles/CS236Project1.dir/Rule.cpp.obj: CMakeFiles/CS236Project1.dir/flags.make
+CMakeFiles/CS236Project1.dir/Rule.cpp.obj: CMakeFiles/CS236Project1.dir/includes_CXX.rsp
+CMakeFiles/CS236Project1.dir/Rule.cpp.obj: ../Rule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zkg59\CS236\project1\CS236Project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CS236Project1.dir/Rule.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS236Project1.dir\Rule.cpp.obj -c C:\Users\zkg59\CS236\project1\CS236Project1\Rule.cpp
+
+CMakeFiles/CS236Project1.dir/Rule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS236Project1.dir/Rule.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zkg59\CS236\project1\CS236Project1\Rule.cpp > CMakeFiles\CS236Project1.dir\Rule.cpp.i
+
+CMakeFiles/CS236Project1.dir/Rule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS236Project1.dir/Rule.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zkg59\CS236\project1\CS236Project1\Rule.cpp -o CMakeFiles\CS236Project1.dir\Rule.cpp.s
+
+CMakeFiles/CS236Project1.dir/Parameter.cpp.obj: CMakeFiles/CS236Project1.dir/flags.make
+CMakeFiles/CS236Project1.dir/Parameter.cpp.obj: CMakeFiles/CS236Project1.dir/includes_CXX.rsp
+CMakeFiles/CS236Project1.dir/Parameter.cpp.obj: ../Parameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zkg59\CS236\project1\CS236Project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/CS236Project1.dir/Parameter.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS236Project1.dir\Parameter.cpp.obj -c C:\Users\zkg59\CS236\project1\CS236Project1\Parameter.cpp
+
+CMakeFiles/CS236Project1.dir/Parameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS236Project1.dir/Parameter.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zkg59\CS236\project1\CS236Project1\Parameter.cpp > CMakeFiles\CS236Project1.dir\Parameter.cpp.i
+
+CMakeFiles/CS236Project1.dir/Parameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS236Project1.dir/Parameter.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zkg59\CS236\project1\CS236Project1\Parameter.cpp -o CMakeFiles\CS236Project1.dir\Parameter.cpp.s
+
+CMakeFiles/CS236Project1.dir/Predicate.cpp.obj: CMakeFiles/CS236Project1.dir/flags.make
+CMakeFiles/CS236Project1.dir/Predicate.cpp.obj: CMakeFiles/CS236Project1.dir/includes_CXX.rsp
+CMakeFiles/CS236Project1.dir/Predicate.cpp.obj: ../Predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zkg59\CS236\project1\CS236Project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CS236Project1.dir/Predicate.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS236Project1.dir\Predicate.cpp.obj -c C:\Users\zkg59\CS236\project1\CS236Project1\Predicate.cpp
+
+CMakeFiles/CS236Project1.dir/Predicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS236Project1.dir/Predicate.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zkg59\CS236\project1\CS236Project1\Predicate.cpp > CMakeFiles\CS236Project1.dir\Predicate.cpp.i
+
+CMakeFiles/CS236Project1.dir/Predicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS236Project1.dir/Predicate.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zkg59\CS236\project1\CS236Project1\Predicate.cpp -o CMakeFiles\CS236Project1.dir\Predicate.cpp.s
+
 # Object files for target CS236Project1
 CS236Project1_OBJECTS = \
 "CMakeFiles/CS236Project1.dir/AddAutomaton.cpp.obj" \
@@ -351,7 +421,12 @@ CS236Project1_OBJECTS = \
 "CMakeFiles/CS236Project1.dir/ColonDashAutomaton.cpp.obj" \
 "CMakeFiles/CS236Project1.dir/Lexer.cpp.obj" \
 "CMakeFiles/CS236Project1.dir/main.cpp.obj" \
-"CMakeFiles/CS236Project1.dir/Token.cpp.obj"
+"CMakeFiles/CS236Project1.dir/Token.cpp.obj" \
+"CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.obj" \
+"CMakeFiles/CS236Project1.dir/Parser.cpp.obj" \
+"CMakeFiles/CS236Project1.dir/Rule.cpp.obj" \
+"CMakeFiles/CS236Project1.dir/Parameter.cpp.obj" \
+"CMakeFiles/CS236Project1.dir/Predicate.cpp.obj"
 
 # External object files for target CS236Project1
 CS236Project1_EXTERNAL_OBJECTS =
@@ -375,11 +450,16 @@ CS236Project1.exe: CMakeFiles/CS236Project1.dir/ColonDashAutomaton.cpp.obj
 CS236Project1.exe: CMakeFiles/CS236Project1.dir/Lexer.cpp.obj
 CS236Project1.exe: CMakeFiles/CS236Project1.dir/main.cpp.obj
 CS236Project1.exe: CMakeFiles/CS236Project1.dir/Token.cpp.obj
+CS236Project1.exe: CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.obj
+CS236Project1.exe: CMakeFiles/CS236Project1.dir/Parser.cpp.obj
+CS236Project1.exe: CMakeFiles/CS236Project1.dir/Rule.cpp.obj
+CS236Project1.exe: CMakeFiles/CS236Project1.dir/Parameter.cpp.obj
+CS236Project1.exe: CMakeFiles/CS236Project1.dir/Predicate.cpp.obj
 CS236Project1.exe: CMakeFiles/CS236Project1.dir/build.make
 CS236Project1.exe: CMakeFiles/CS236Project1.dir/linklibs.rsp
 CS236Project1.exe: CMakeFiles/CS236Project1.dir/objects1.rsp
 CS236Project1.exe: CMakeFiles/CS236Project1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zkg59\CS236\project1\CS236Project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable CS236Project1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zkg59\CS236\project1\CS236Project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable CS236Project1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CS236Project1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

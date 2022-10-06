@@ -9,7 +9,6 @@ class Lexer
 {
 private:
     std::vector<Automaton*> automata;
-    std::vector<Token*> tokens;
     unsigned int lineNumber;
     int inputRead;
 
@@ -21,6 +20,7 @@ public:
     Lexer();
     ~Lexer();
 
+    std::vector<Token*> tokens;
     void Run(std::string& input);
     void OutputResults();
     

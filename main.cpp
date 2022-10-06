@@ -1,4 +1,6 @@
 #include "Lexer.h"
+#include "Parser.h"
+#include "DatalogProgram.h"
 #include <fstream>
 #include <iostream>
 #include <string>
@@ -6,6 +8,9 @@
 int main(int argc, char** argv) {
 
     Lexer* lexer = new Lexer();
+    Parser* parser = new Parser();
+
+    DatalogProgram* datalogProgram;
 
     std::string filename = argv[1];
     std::ifstream infile;
@@ -26,11 +31,15 @@ int main(int argc, char** argv) {
 
     lexer->Run(inputString);
 
-    lexer->OutputResults();
+    //lexer->OutputResults();
 
+    datalogProgram = parser->parse(lexer);
 
+    datalogProgram->outputResults();
 
+    delete datalogProgram;
     delete lexer;
+    delete parser;
 
     return 0;
 }

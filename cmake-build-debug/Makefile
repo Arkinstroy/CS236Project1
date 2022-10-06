@@ -248,6 +248,30 @@ CommentAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/CommentAutomaton.cpp.s
 .PHONY : CommentAutomaton.cpp.s
 
+DatalogProgram.obj: DatalogProgram.cpp.obj
+.PHONY : DatalogProgram.obj
+
+# target to build an object file
+DatalogProgram.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.obj
+.PHONY : DatalogProgram.cpp.obj
+
+DatalogProgram.i: DatalogProgram.cpp.i
+.PHONY : DatalogProgram.i
+
+# target to preprocess a source file
+DatalogProgram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.i
+.PHONY : DatalogProgram.cpp.i
+
+DatalogProgram.s: DatalogProgram.cpp.s
+.PHONY : DatalogProgram.s
+
+# target to generate assembly for a file
+DatalogProgram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.s
+.PHONY : DatalogProgram.cpp.s
+
 FactsAutomaton.obj: FactsAutomaton.cpp.obj
 .PHONY : FactsAutomaton.obj
 
@@ -368,6 +392,54 @@ MultiplyAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/MultiplyAutomaton.cpp.s
 .PHONY : MultiplyAutomaton.cpp.s
 
+Parameter.obj: Parameter.cpp.obj
+.PHONY : Parameter.obj
+
+# target to build an object file
+Parameter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/Parameter.cpp.obj
+.PHONY : Parameter.cpp.obj
+
+Parameter.i: Parameter.cpp.i
+.PHONY : Parameter.i
+
+# target to preprocess a source file
+Parameter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/Parameter.cpp.i
+.PHONY : Parameter.cpp.i
+
+Parameter.s: Parameter.cpp.s
+.PHONY : Parameter.s
+
+# target to generate assembly for a file
+Parameter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/Parameter.cpp.s
+.PHONY : Parameter.cpp.s
+
+Parser.obj: Parser.cpp.obj
+.PHONY : Parser.obj
+
+# target to build an object file
+Parser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/Parser.cpp.obj
+.PHONY : Parser.cpp.obj
+
+Parser.i: Parser.cpp.i
+.PHONY : Parser.i
+
+# target to preprocess a source file
+Parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/Parser.cpp.i
+.PHONY : Parser.cpp.i
+
+Parser.s: Parser.cpp.s
+.PHONY : Parser.s
+
+# target to generate assembly for a file
+Parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/Parser.cpp.s
+.PHONY : Parser.cpp.s
+
 PeriodAutomaton.obj: PeriodAutomaton.cpp.obj
 .PHONY : PeriodAutomaton.obj
 
@@ -391,6 +463,30 @@ PeriodAutomaton.s: PeriodAutomaton.cpp.s
 PeriodAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/PeriodAutomaton.cpp.s
 .PHONY : PeriodAutomaton.cpp.s
+
+Predicate.obj: Predicate.cpp.obj
+.PHONY : Predicate.obj
+
+# target to build an object file
+Predicate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/Predicate.cpp.obj
+.PHONY : Predicate.cpp.obj
+
+Predicate.i: Predicate.cpp.i
+.PHONY : Predicate.i
+
+# target to preprocess a source file
+Predicate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/Predicate.cpp.i
+.PHONY : Predicate.cpp.i
+
+Predicate.s: Predicate.cpp.s
+.PHONY : Predicate.s
+
+# target to generate assembly for a file
+Predicate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/Predicate.cpp.s
+.PHONY : Predicate.cpp.s
 
 QueriesAutomaton.obj: QueriesAutomaton.cpp.obj
 .PHONY : QueriesAutomaton.obj
@@ -463,6 +559,30 @@ RightParenAutomaton.s: RightParenAutomaton.cpp.s
 RightParenAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/RightParenAutomaton.cpp.s
 .PHONY : RightParenAutomaton.cpp.s
+
+Rule.obj: Rule.cpp.obj
+.PHONY : Rule.obj
+
+# target to build an object file
+Rule.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/Rule.cpp.obj
+.PHONY : Rule.cpp.obj
+
+Rule.i: Rule.cpp.i
+.PHONY : Rule.i
+
+# target to preprocess a source file
+Rule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/Rule.cpp.i
+.PHONY : Rule.cpp.i
+
+Rule.s: Rule.cpp.s
+.PHONY : Rule.s
+
+# target to generate assembly for a file
+Rule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS236Project1.dir\build.make CMakeFiles/CS236Project1.dir/Rule.cpp.s
+.PHONY : Rule.cpp.s
 
 RulesAutomaton.obj: RulesAutomaton.cpp.obj
 .PHONY : RulesAutomaton.obj
@@ -608,6 +728,9 @@ help:
 	@echo ... CommentAutomaton.obj
 	@echo ... CommentAutomaton.i
 	@echo ... CommentAutomaton.s
+	@echo ... DatalogProgram.obj
+	@echo ... DatalogProgram.i
+	@echo ... DatalogProgram.s
 	@echo ... FactsAutomaton.obj
 	@echo ... FactsAutomaton.i
 	@echo ... FactsAutomaton.s
@@ -623,9 +746,18 @@ help:
 	@echo ... MultiplyAutomaton.obj
 	@echo ... MultiplyAutomaton.i
 	@echo ... MultiplyAutomaton.s
+	@echo ... Parameter.obj
+	@echo ... Parameter.i
+	@echo ... Parameter.s
+	@echo ... Parser.obj
+	@echo ... Parser.i
+	@echo ... Parser.s
 	@echo ... PeriodAutomaton.obj
 	@echo ... PeriodAutomaton.i
 	@echo ... PeriodAutomaton.s
+	@echo ... Predicate.obj
+	@echo ... Predicate.i
+	@echo ... Predicate.s
 	@echo ... QueriesAutomaton.obj
 	@echo ... QueriesAutomaton.i
 	@echo ... QueriesAutomaton.s
@@ -635,6 +767,9 @@ help:
 	@echo ... RightParenAutomaton.obj
 	@echo ... RightParenAutomaton.i
 	@echo ... RightParenAutomaton.s
+	@echo ... Rule.obj
+	@echo ... Rule.i
+	@echo ... Rule.s
 	@echo ... RulesAutomaton.obj
 	@echo ... RulesAutomaton.i
 	@echo ... RulesAutomaton.s

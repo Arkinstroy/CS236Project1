@@ -43,4 +43,14 @@ add_executable(CS236Project1
         Lexer.h
         main.cpp
         Token.cpp
-        Token.h)
+        Token.h
+        DatalogProgram.h
+        DatalogProgram.cpp
+        Parser.h
+        Parser.cpp
+        Rule.h
+        Rule.cpp
+        Parameter.cpp
+        Parameter.cpp
+        Predicate.h
+        Predicate.cpp)
