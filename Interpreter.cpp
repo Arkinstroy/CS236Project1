@@ -10,6 +10,7 @@ void Interpreter::InterpretSchemes() {
         }
         Relation* newRelation = new Relation(i->getStartingID(), newHeader);
         database->AddRelation(newRelation);
+        delete newRelation;
     }
 }
 

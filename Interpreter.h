@@ -20,6 +20,10 @@ public:
         this->program = program;
         this->database = new Database();
     }
+    ~Interpreter() {
+        delete program;
+        delete database;
+    }
     void InterpretSchemes();
     void InterpretFacts();
     void InterpretRules();

@@ -10,10 +10,6 @@ C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
 Token.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
 
-C:/Users/zkg59/CS236/project1/CS236Project1/Database.cpp
-Database.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Database.h
-
 C:/Users/zkg59/CS236/project1/CS236Project1/Database.h
 Relation.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Relation.h
@@ -87,12 +83,6 @@ vector
 -
 Parameter.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.h
-
-C:/Users/zkg59/CS236/project1/CS236Project1/Relation.cpp
-Relation.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Relation.h
-string
--
 
 C:/Users/zkg59/CS236/project1/CS236Project1/Relation.h
 Tuple.h

@@ -47,6 +47,7 @@ int main(int argc, char** argv) {
     delete datalogProgram;
     delete lexer;
     delete parser;
+    delete interpreter;
 
     return 0;
 }
