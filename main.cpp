@@ -44,7 +44,6 @@ int main(int argc, char** argv) {
 
     interpreter->outputResults();
 
-    delete datalogProgram;
     delete lexer;
     delete parser;
     delete interpreter;
