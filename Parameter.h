@@ -9,6 +9,9 @@ private:
 public:
     Parameter(std::string content);
     std::string toString();
+    bool isConstant() {
+        return content[0] == '\'';
+    }
 };
 
 

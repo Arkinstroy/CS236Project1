@@ -53,4 +53,14 @@ add_executable(CS236Project1
         Parameter.cpp
         Parameter.cpp
         Predicate.h
-        Predicate.cpp)
+        Predicate.cpp
+        Database.h
+        Database.cpp
+        Header.h
+        Header.cpp
+        Relation.h
+        Relation.cpp
+        Tuple.h
+        Tuple.cpp
+        Interpreter.h
+        Interpreter.cpp)

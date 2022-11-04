@@ -26,6 +26,12 @@ CMakeFiles/CS236Project1.dir/CommentAutomaton.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/CommentAutomaton.cpp
  C:/Users/zkg59/CS236/project1/CS236Project1/CommentAutomaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
+CMakeFiles/CS236Project1.dir/Database.cpp.obj
+ C:/Users/zkg59/CS236/project1/CS236Project1/Database.cpp
+ C:/Users/zkg59/CS236/project1/CS236Project1/Database.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Header.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Relation.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Tuple.h
 CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.cpp
  C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h
@@ -37,11 +43,25 @@ CMakeFiles/CS236Project1.dir/FactsAutomaton.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/FactsAutomaton.cpp
  C:/Users/zkg59/CS236/project1/CS236Project1/FactsAutomaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
+CMakeFiles/CS236Project1.dir/Header.cpp.obj
+ C:/Users/zkg59/CS236/project1/CS236Project1/Header.cpp
+ C:/Users/zkg59/CS236/project1/CS236Project1/Header.h
 CMakeFiles/CS236Project1.dir/IDAutomaton.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/IDAutomaton.cpp
  C:/Users/zkg59/CS236/project1/CS236Project1/IDAutomaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
+CMakeFiles/CS236Project1.dir/Interpreter.cpp.obj
+ C:/Users/zkg59/CS236/project1/CS236Project1/Database.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Header.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Interpreter.cpp
+ C:/Users/zkg59/CS236/project1/CS236Project1/Interpreter.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Relation.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Rule.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Tuple.h
 CMakeFiles/CS236Project1.dir/LeftParenAutomaton.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/LeftParenAutomaton.cpp
@@ -105,6 +125,11 @@ CMakeFiles/CS236Project1.dir/QuestionMarkAutomaton.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/QuestionMarkAutomaton.cpp
  C:/Users/zkg59/CS236/project1/CS236Project1/QuestionMarkAutomaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
+CMakeFiles/CS236Project1.dir/Relation.cpp.obj
+ C:/Users/zkg59/CS236/project1/CS236Project1/Header.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Relation.cpp
+ C:/Users/zkg59/CS236/project1/CS236Project1/Relation.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Tuple.h
 CMakeFiles/CS236Project1.dir/RightParenAutomaton.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
  C:/Users/zkg59/CS236/project1/CS236Project1/RightParenAutomaton.cpp
@@ -133,13 +158,21 @@ CMakeFiles/CS236Project1.dir/StringAutomaton.cpp.obj
 CMakeFiles/CS236Project1.dir/Token.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/Token.cpp
  C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
+CMakeFiles/CS236Project1.dir/Tuple.cpp.obj
+ C:/Users/zkg59/CS236/project1/CS236Project1/Tuple.cpp
+ C:/Users/zkg59/CS236/project1/CS236Project1/Tuple.h
 CMakeFiles/CS236Project1.dir/main.cpp.obj
  C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Database.h
  C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Header.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Interpreter.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Lexer.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Parser.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Relation.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Rule.h
  C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
+ C:/Users/zkg59/CS236/project1/CS236Project1/Tuple.h
  C:/Users/zkg59/CS236/project1/CS236Project1/main.cpp

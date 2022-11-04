@@ -8,12 +8,15 @@
 class Predicate {
 private:
     std::string startingID;
-    std::vector<Parameter*> parameterList;
 public:
     Predicate(std::string startingID);
     ~Predicate();
     std::string toString();
     void addParameter(Parameter* newParam);
+    std::vector<Parameter*> parameterList;
+    std::string getStartingID() {
+        return startingID;
+    }
 };
 
 

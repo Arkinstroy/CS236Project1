@@ -10,10 +10,16 @@ C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
 Token.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
 
-C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.cpp
-DatalogProgram.h
-C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h
-iostream
+C:/Users/zkg59/CS236/project1/CS236Project1/Database.cpp
+Database.h
+C:/Users/zkg59/CS236/project1/CS236Project1/Database.h
+
+C:/Users/zkg59/CS236/project1/CS236Project1/Database.h
+Relation.h
+C:/Users/zkg59/CS236/project1/CS236Project1/Relation.h
+map
+-
+string
 -
 
 C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h
@@ -27,6 +33,30 @@ Rule.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Rule.h
 Predicate.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h
+
+C:/Users/zkg59/CS236/project1/CS236Project1/Header.h
+vector
+-
+string
+-
+
+C:/Users/zkg59/CS236/project1/CS236Project1/Interpreter.cpp
+Interpreter.h
+C:/Users/zkg59/CS236/project1/CS236Project1/Interpreter.h
+iostream
+-
+
+C:/Users/zkg59/CS236/project1/CS236Project1/Interpreter.h
+DatalogProgram.h
+C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h
+Database.h
+C:/Users/zkg59/CS236/project1/CS236Project1/Database.h
+map
+-
+string
+-
+vector
+-
 
 C:/Users/zkg59/CS236/project1/CS236Project1/Lexer.h
 vector
@@ -42,18 +72,6 @@ C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.h
 string
 -
 
-C:/Users/zkg59/CS236/project1/CS236Project1/Parser.cpp
-Parser.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Parser.h
-Predicate.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h
-Parameter.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.h
-Rule.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Rule.h
-iostream
--
-
 C:/Users/zkg59/CS236/project1/CS236Project1/Parser.h
 Token.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
@@ -62,10 +80,6 @@ C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h
 Lexer.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Lexer.h
 
-C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.cpp
-Predicate.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h
-
 C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h
 string
 -
@@ -74,9 +88,23 @@ vector
 Parameter.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.h
 
-C:/Users/zkg59/CS236/project1/CS236Project1/Rule.cpp
-Rule.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Rule.h
+C:/Users/zkg59/CS236/project1/CS236Project1/Relation.cpp
+Relation.h
+C:/Users/zkg59/CS236/project1/CS236Project1/Relation.h
+string
+-
+
+C:/Users/zkg59/CS236/project1/CS236Project1/Relation.h
+Tuple.h
+C:/Users/zkg59/CS236/project1/CS236Project1/Tuple.h
+Header.h
+C:/Users/zkg59/CS236/project1/CS236Project1/Header.h
+set
+-
+string
+-
+vector
+-
 
 C:/Users/zkg59/CS236/project1/CS236Project1/Rule.h
 string
@@ -87,6 +115,12 @@ Predicate.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h
 
 C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
+string
+-
+
+C:/Users/zkg59/CS236/project1/CS236Project1/Tuple.h
+vector
+-
 string
 -
 
@@ -97,6 +131,8 @@ Parser.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Parser.h
 DatalogProgram.h
 C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h
+Interpreter.h
+C:/Users/zkg59/CS236/project1/CS236Project1/Interpreter.h
 fstream
 -
 iostream

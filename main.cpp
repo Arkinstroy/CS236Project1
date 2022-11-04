@@ -1,6 +1,7 @@
 #include "Lexer.h"
 #include "Parser.h"
 #include "DatalogProgram.h"
+#include "Interpreter.h"
 #include <fstream>
 #include <iostream>
 #include <string>
@@ -35,7 +36,13 @@ int main(int argc, char** argv) {
 
     datalogProgram = parser->parse(lexer);
 
-    datalogProgram->outputResults();
+    //datalogProgram->outputResults();
+
+    Interpreter* interpreter = new Interpreter(datalogProgram);
+
+    interpreter->interpret();
+
+    interpreter->outputResults();
 
     delete datalogProgram;
     delete lexer;

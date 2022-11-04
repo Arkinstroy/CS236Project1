@@ -26,6 +26,12 @@ CMakeFiles/CS236Project1.dir/CommentAutomaton.cpp.obj: \
  ../CommentAutomaton.cpp \
  ../CommentAutomaton.h \
  ../Token.h
+CMakeFiles/CS236Project1.dir/Database.cpp.obj: \
+ ../Database.cpp \
+ ../Database.h \
+ ../Header.h \
+ ../Relation.h \
+ ../Tuple.h
 CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.obj: \
  ../DatalogProgram.cpp \
  ../DatalogProgram.h \
@@ -37,11 +43,25 @@ CMakeFiles/CS236Project1.dir/FactsAutomaton.cpp.obj: \
  ../FactsAutomaton.cpp \
  ../FactsAutomaton.h \
  ../Token.h
+CMakeFiles/CS236Project1.dir/Header.cpp.obj: \
+ ../Header.cpp \
+ ../Header.h
 CMakeFiles/CS236Project1.dir/IDAutomaton.cpp.obj: \
  ../Automaton.h \
  ../IDAutomaton.cpp \
  ../IDAutomaton.h \
  ../Token.h
+CMakeFiles/CS236Project1.dir/Interpreter.cpp.obj: \
+ ../Database.h \
+ ../DatalogProgram.h \
+ ../Header.h \
+ ../Interpreter.cpp \
+ ../Interpreter.h \
+ ../Parameter.h \
+ ../Predicate.h \
+ ../Relation.h \
+ ../Rule.h \
+ ../Tuple.h
 CMakeFiles/CS236Project1.dir/LeftParenAutomaton.cpp.obj: \
  ../Automaton.h \
  ../LeftParenAutomaton.cpp \
@@ -105,6 +125,11 @@ CMakeFiles/CS236Project1.dir/QuestionMarkAutomaton.cpp.obj: \
  ../QuestionMarkAutomaton.cpp \
  ../QuestionMarkAutomaton.h \
  ../Token.h
+CMakeFiles/CS236Project1.dir/Relation.cpp.obj: \
+ ../Header.h \
+ ../Relation.cpp \
+ ../Relation.h \
+ ../Tuple.h
 CMakeFiles/CS236Project1.dir/RightParenAutomaton.cpp.obj: \
  ../Automaton.h \
  ../RightParenAutomaton.cpp \
@@ -133,13 +158,21 @@ CMakeFiles/CS236Project1.dir/StringAutomaton.cpp.obj: \
 CMakeFiles/CS236Project1.dir/Token.cpp.obj: \
  ../Token.cpp \
  ../Token.h
+CMakeFiles/CS236Project1.dir/Tuple.cpp.obj: \
+ ../Tuple.cpp \
+ ../Tuple.h
 CMakeFiles/CS236Project1.dir/main.cpp.obj: \
  ../Automaton.h \
+ ../Database.h \
  ../DatalogProgram.h \
+ ../Header.h \
+ ../Interpreter.h \
  ../Lexer.h \
  ../Parameter.h \
  ../Parser.h \
  ../Predicate.h \
+ ../Relation.h \
  ../Rule.h \
  ../Token.h \
+ ../Tuple.h \
  ../main.cpp

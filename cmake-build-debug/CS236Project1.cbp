@@ -115,6 +115,12 @@
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/CommentAutomaton.h">
 			<Option target="CS236Project1"/>
 		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Database.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Database.h">
+			<Option target="CS236Project1"/>
+		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.cpp">
 			<Option target="CS236Project1"/>
 		</Unit>
@@ -127,10 +133,22 @@
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/FactsAutomaton.h">
 			<Option target="CS236Project1"/>
 		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Header.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Header.h">
+			<Option target="CS236Project1"/>
+		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/IDAutomaton.cpp">
 			<Option target="CS236Project1"/>
 		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/IDAutomaton.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Interpreter.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Interpreter.h">
 			<Option target="CS236Project1"/>
 		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/LeftParenAutomaton.cpp">
@@ -187,6 +205,12 @@
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/QuestionMarkAutomaton.h">
 			<Option target="CS236Project1"/>
 		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Relation.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Relation.h">
+			<Option target="CS236Project1"/>
+		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/RightParenAutomaton.cpp">
 			<Option target="CS236Project1"/>
 		</Unit>
@@ -221,6 +245,12 @@
 			<Option target="CS236Project1"/>
 		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Token.h">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Tuple.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Tuple.h">
 			<Option target="CS236Project1"/>
 		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/main.cpp">
