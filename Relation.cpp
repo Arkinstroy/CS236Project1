@@ -71,7 +71,7 @@ Header Relation::combineHeaders(Header& header1, Header& header2, std::map<unsig
             }
         }
     }
-    for (int i = 0; i < header2.getSize(); i++) {
+    for (unsigned int i = 0; i < header2.getSize(); i++) {
         bool isUnique = true;
         std::map<unsigned int, unsigned int>::iterator it;
         for (it = sourceMap.begin(); it != sourceMap.end(); it++) {
