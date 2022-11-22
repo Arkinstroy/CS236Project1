@@ -4,6 +4,7 @@
 #include "Tuple.h"
 #include "Header.h"
 #include <set>
+#include <map>
 #include <string>
 #include <vector>
 
@@ -12,6 +13,9 @@ private:
     std::string name;
     Header columnNames;
     std::set<Tuple> tuples;
+    Header combineHeaders(Header& header1, Header& header2, std::map<unsigned int, unsigned int>& sourceMap, std::vector<unsigned int>& uniqueIndices);
+    bool isJoinable(Tuple& tuple1, Tuple& tuple2, std::map<unsigned int, unsigned int>& sourceMap);
+    Tuple combineTuples(Tuple& tuple1, Tuple& tuple2, std::vector<unsigned int>& uniqueIndices);
 public:
     Relation() = default;
     Relation(std::string name, Header columnNames) {
@@ -27,6 +31,12 @@ public:
     void AddTuple(Tuple newTuple) {
         tuples.insert(newTuple);
     }
+    unsigned int getHeaderSize() {
+        return columnNames.getSize();
+    }
+    std::string getColumn(unsigned int index) {
+        return columnNames.getColumn(index);
+    }
 
     std::string toString();
 
@@ -35,6 +45,7 @@ public:
     Relation project(std::vector<unsigned int>& columnsToProject);
     Relation rename(std::vector<std::string>& newColumnNames);
     Relation Join(Relation other);
+    std::string unionize(Relation other);
 };
 
 

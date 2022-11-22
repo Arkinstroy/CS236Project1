@@ -22,7 +22,7 @@ private:
     void parseFact();
     void parseRule();
     void parseQuery();
-    void parseHeadPredicate();
+    Predicate* parseHeadPredicate();
     void parsePredicate();
     void parsePredicate(Rule* newRule);
     void parsePredicateList(Rule* newRule);

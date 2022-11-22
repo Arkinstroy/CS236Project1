@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
-Token.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
-
 C:/Users/zkg59/CS236/project1/CS236Project1/Database.h
 Relation.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Relation.h
@@ -36,6 +32,14 @@ vector
 string
 -
 
+C:/Users/zkg59/CS236/project1/CS236Project1/Interpreter.cpp
+Interpreter.h
+C:/Users/zkg59/CS236/project1/CS236Project1/Interpreter.h
+iostream
+-
+set
+-
+
 C:/Users/zkg59/CS236/project1/CS236Project1/Interpreter.h
 DatalogProgram.h
 C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h
@@ -48,27 +52,9 @@ string
 vector
 -
 
-C:/Users/zkg59/CS236/project1/CS236Project1/Lexer.h
-vector
--
-cctype
--
-Automaton.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Automaton.h
-Token.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
-
 C:/Users/zkg59/CS236/project1/CS236Project1/Parameter.h
 string
 -
-
-C:/Users/zkg59/CS236/project1/CS236Project1/Parser.h
-Token.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
-DatalogProgram.h
-C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h
-Lexer.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Lexer.h
 
 C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h
 string
@@ -85,6 +71,8 @@ Header.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Header.h
 set
 -
+map
+-
 string
 -
 vector
@@ -98,28 +86,8 @@ vector
 Predicate.h
 C:/Users/zkg59/CS236/project1/CS236Project1/Predicate.h
 
-C:/Users/zkg59/CS236/project1/CS236Project1/Token.h
-string
--
-
 C:/Users/zkg59/CS236/project1/CS236Project1/Tuple.h
 vector
--
-string
--
-
-C:/Users/zkg59/CS236/project1/CS236Project1/main.cpp
-Lexer.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Lexer.h
-Parser.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Parser.h
-DatalogProgram.h
-C:/Users/zkg59/CS236/project1/CS236Project1/DatalogProgram.h
-Interpreter.h
-C:/Users/zkg59/CS236/project1/CS236Project1/Interpreter.h
-fstream
--
-iostream
 -
 string
 -

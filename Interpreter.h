@@ -14,7 +14,9 @@ private:
     std::map<std::string, unsigned int> markedIDs;
     std::vector<unsigned int> firstIndices;
     std::vector<std::string> variables;
-    std::string outputString;
+    std::string queryOutput;
+    unsigned int passes;
+    std::string ruleOutput;
 public:
     Interpreter(DatalogProgram* program) {
         this->program = program;

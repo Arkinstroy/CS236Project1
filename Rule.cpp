@@ -1,6 +1,6 @@
 #include "Rule.h"
 
-Rule::Rule(std::string headPredicate) {
+Rule::Rule(Predicate* headPredicate) {
     this->headPredicate = headPredicate;
 }
 
@@ -15,7 +15,7 @@ void Rule::addPredicate(Predicate* newPredicate) {
 }
 
 std::string Rule::toString() {
-    std::string output = this->headPredicate + " :- ";
+    std::string output = this->headPredicate->toString() + " :- ";
     for (unsigned int i = 0; i < predicateList.size(); i++) {
         output += predicateList.at(i)->toString() += (i < predicateList.size() - 1 ? "," : "");
     }

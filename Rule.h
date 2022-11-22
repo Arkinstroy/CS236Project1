@@ -9,13 +9,19 @@
 
 class Rule {
 private:
-    std::string headPredicate;
+    Predicate* headPredicate;
     std::vector<Predicate*> predicateList;
 public:
-    Rule(std::string headPredicate);
+    Rule(Predicate* headPredicate);
     ~Rule();
     std::string toString();
     void addPredicate(Predicate* newPredicate);
+    Predicate* getHeadPredicate() {
+        return headPredicate;
+    }
+    std::vector<Predicate*> getPredicateList() {
+        return predicateList;
+    }
 };
 
 

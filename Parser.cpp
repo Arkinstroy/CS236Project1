@@ -114,8 +114,7 @@ void Parser::parseFact() {
 }
 
 void Parser::parseRule() {
-    this->parseHeadPredicate();
-    Rule* newRule = new Rule(currContent);
+    Rule* newRule = new Rule(this->parseHeadPredicate());
     this->Match(TokenType::COLON_DASH);
     this->parsePredicate(newRule);
     this->parsePredicateList(newRule);
@@ -128,7 +127,7 @@ void Parser::parseQuery() {
     this->Match(TokenType::Q_MARK);
 }
 
-void Parser::parseHeadPredicate() {
+Predicate* Parser::parseHeadPredicate() {
     this->Match(TokenType::ID);
     Predicate* newPredicate = new Predicate(currContent);
     this->Match(TokenType::LEFT_PAREN);
@@ -137,7 +136,7 @@ void Parser::parseHeadPredicate() {
     this->parseIdList(newPredicate);
     this->Match(TokenType::RIGHT_PAREN);
     currContent = newPredicate->toString();
-    delete newPredicate;
+    return newPredicate;
 }
 
 void Parser::parsePredicate() {
