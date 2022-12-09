@@ -30,10 +30,12 @@ void Interpreter::InterpretFacts() {
 
 void Interpreter::InterpretRules() {
     forwardGraph = new Graph();
+    reverseGraph = new Graph();
     std::vector<std::string> startingIDs;
     std::map<std::string, std::vector<unsigned int>> idMap;
     for (unsigned int i = 0; i < program->ruleList.size(); i++) {
         forwardGraph->addNode(i);
+        reverseGraph->addNode(i);
         std::string startingID = program->ruleList.at(i)->getHeadPredicate()->getStartingID();
         if (idMap.count(startingID)) {
             idMap[startingID].push_back(i);
@@ -48,13 +50,14 @@ void Interpreter::InterpretRules() {
             if (idMap.count(startingID)) {
                 for (unsigned int j = 0; j < idMap[startingID].size(); j++) {
                     forwardGraph->addRelation(i, idMap[startingID].at(j));
+                    reverseGraph->addRelation(idMap[startingID].at(j), i);
                 }
             }
         }
     }
-    reverseGraph = forwardGraph->reverse();
+    //reverseGraph = forwardGraph->reverse();
 //    forwardGraph->printAdjacency();
-//    reverseGraph->printAdjacency();
+    //reverseGraph->printAdjacency();
     std::vector<unsigned int> postOrder;
     reverseGraph->DFSF(postOrder);
 //    for (unsigned int i = 0; i < postOrder.size(); i++) {
