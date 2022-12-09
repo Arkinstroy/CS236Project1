@@ -133,6 +133,12 @@
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/FactsAutomaton.h">
 			<Option target="CS236Project1"/>
 		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Graph.cpp">
+			<Option target="CS236Project1"/>
+		</Unit>
+		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Graph.h">
+			<Option target="CS236Project1"/>
+		</Unit>
 		<Unit filename="C:/Users/zkg59/CS236/project1/CS236Project1/Header.cpp">
 			<Option target="CS236Project1"/>
 		</Unit>

@@ -3,6 +3,7 @@
 
 #include "DatalogProgram.h"
 #include "Database.h"
+#include "Graph.h"
 #include <map>
 #include <string>
 #include <vector>
@@ -11,6 +12,8 @@ class Interpreter {
 private:
     DatalogProgram* program;
     Database* database;
+    Graph* forwardGraph;
+    Graph* reverseGraph;
     std::map<std::string, unsigned int> markedIDs;
     std::vector<unsigned int> firstIndices;
     std::vector<std::string> variables;

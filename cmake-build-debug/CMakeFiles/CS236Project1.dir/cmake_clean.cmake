@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CS236Project1.dir/Database.cpp.obj"
   "CMakeFiles/CS236Project1.dir/DatalogProgram.cpp.obj"
   "CMakeFiles/CS236Project1.dir/FactsAutomaton.cpp.obj"
+  "CMakeFiles/CS236Project1.dir/Graph.cpp.obj"
   "CMakeFiles/CS236Project1.dir/Header.cpp.obj"
   "CMakeFiles/CS236Project1.dir/IDAutomaton.cpp.obj"
   "CMakeFiles/CS236Project1.dir/Interpreter.cpp.obj"

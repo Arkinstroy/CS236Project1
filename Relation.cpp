@@ -115,7 +115,10 @@ std::string Relation::toString() {
     std::string output = "";
     for (Tuple t : tuples) {
         for (unsigned int i = 0; i < columnNames.getSize(); i++) {
-            output += "  " + columnNames.getColumn(i) + '=' + t.rowValues[i];
+            if (i == 0) {
+                output += "  ";
+            }
+            output += columnNames.getColumn(i) + '=' + t.rowValues[i];
             if (i < columnNames.getSize() - 1) {
                 output += ", ";
             } else {

@@ -43,6 +43,9 @@ CMakeFiles/CS236Project1.dir/FactsAutomaton.cpp.obj: \
  ../FactsAutomaton.cpp \
  ../FactsAutomaton.h \
  ../Token.h
+CMakeFiles/CS236Project1.dir/Graph.cpp.obj: \
+ ../Graph.cpp \
+ ../Graph.h
 CMakeFiles/CS236Project1.dir/Header.cpp.obj: \
  ../Header.cpp \
  ../Header.h
@@ -54,6 +57,7 @@ CMakeFiles/CS236Project1.dir/IDAutomaton.cpp.obj: \
 CMakeFiles/CS236Project1.dir/Interpreter.cpp.obj: \
  ../Database.h \
  ../DatalogProgram.h \
+ ../Graph.h \
  ../Header.h \
  ../Interpreter.cpp \
  ../Interpreter.h \
@@ -165,6 +169,7 @@ CMakeFiles/CS236Project1.dir/main.cpp.obj: \
  ../Automaton.h \
  ../Database.h \
  ../DatalogProgram.h \
+ ../Graph.h \
  ../Header.h \
  ../Interpreter.h \
  ../Lexer.h \

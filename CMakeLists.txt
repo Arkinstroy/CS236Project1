@@ -63,4 +63,6 @@ add_executable(CS236Project1
         Tuple.h
         Tuple.cpp
         Interpreter.h
-        Interpreter.cpp)
+        Interpreter.cpp
+        Graph.h
+        Graph.cpp)
